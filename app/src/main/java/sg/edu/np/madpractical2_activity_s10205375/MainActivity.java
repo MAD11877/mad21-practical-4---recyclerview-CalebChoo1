@@ -2,12 +2,10 @@ package sg.edu.np.madpractical2_activity_s10205375;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -32,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setFollowBtn();
     }
     private void setFollowBtn() {
-        Button fBtn = findViewById(R.id.followbtn);
+        Button fBtn = findViewById(R.id.btnFollow);
         if(u.followed) {
             fBtn.setText("Unfollow");
         }

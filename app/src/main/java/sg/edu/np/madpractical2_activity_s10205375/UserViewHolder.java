@@ -1,7 +1,6 @@
 package sg.edu.np.madpractical2_activity_s10205375;
 
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,7 +16,7 @@ public class UserViewHolder extends RecyclerView.ViewHolder {
         super(itemView);
         name = itemView.findViewById(R.id.nameDisplay);
         desc = itemView.findViewById(R.id.descDisplay);
-        imgView = itemView.findViewById(R.id.imageView2);
+        imgView = itemView.findViewById(R.id.img_profile);
     }
 }
 
