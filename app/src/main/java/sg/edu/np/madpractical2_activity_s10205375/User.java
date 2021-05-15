@@ -14,9 +14,9 @@ public class User {
     }
 
     String description;
-    public void setDesc(String desc)
+    public void setDesc(String d)
     {
-        description = desc;
+        description = d;
     }
     public String getDesc()
     {
