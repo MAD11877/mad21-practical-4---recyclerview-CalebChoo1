@@ -53,8 +53,7 @@ public class UsersAdapter extends RecyclerView.Adapter<UserViewHolder> {
                 builder.setMessage(u.name);
                 builder.setPositiveButton("View", new DialogInterface.OnClickListener(){
                     public void onClick(DialogInterface dialog, int id){
-                        Random ran = new Random();
-                        String ranInt = " " + String.valueOf(ran.nextInt());
+                        Random ran = new Random();                      
                         Intent in = new Intent(context, MainActivity.class);
                         in.putExtra("row", position);
                         context.startActivity(in);
